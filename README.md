@@ -22,7 +22,7 @@ Project to work towards Getting AWS component using AWS SAM module
 - Provided required access as per the requirement
   - Here i have provided the access for S3 and Lambda function (S3 Full access and Lambda Full access in Policy section)
 
-## Run the cloud formation commnad in the command prompt
+## Run the cloud formation command in the command prompt
     aws cloudformation package --s3-bucket shjena-code-sam --template-file template.yaml --output-template-file gen/template-generated.yaml
   
   here we will find that  output file have been generated in the **gen** folder and now it is pointing to te actual path in the S3 bucket.
