@@ -34,6 +34,6 @@ if getting below error the add new type as  "--capabilities CAPABILITY_IAM"
     C:\workspace_sample_project_AWS\SAMDeploymentUsngAWS> aws cloudformation package --s3-bucket shjena-code-sam --template-file template.yaml --output-template-file gen/template-generated.yaml
     C:\workspace_sample_project_AWS\SAMDeploymentUsngAWS> aws cloudformation deploy --template-file C:\workspace_sample_project_AWS\SAMDeploymentUsngAWS\gen\template-generated.yaml --stack-name hello-world-sam-v7 --capabilities CAPABILITY_IAM
 
-## cloud formation in AWS accoount
+## cloud formation in AWS account
 
 ![img_1.png](img_1.png)
